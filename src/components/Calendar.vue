@@ -415,15 +415,11 @@ export default {
         "-" +
         today.getDate();
 
-      if (date >= "this.dateData.dateCode") {
-        console.log("date is fine");
+  
 
         this.isModalOpen = true;
         this.DayData = DaysData[DayInteger];
-      } else {
-        console.log("too early to open");
-        this.openTooEarlyPop();
-      }
+      
     },
   },
 };
